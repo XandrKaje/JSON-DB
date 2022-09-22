@@ -1,0 +1,39 @@
+//Create document, details and marks
+
+{
+    "transactionId": "test-data-1" ,
+    "recipientCode": "recipient-code-test-1" ,
+    "senderCode": "sender-code-test-1" ,
+        "details": [
+            {
+                "lineNumber":"1" ,
+                "productName":"bear-1" ,
+                "marks":[
+                    {
+                        "uniqueBrandCode":"unique-brand-test-code-1"
+                    },
+                    {
+                        "uniqueBrandCode":"unique-brand-test-code-2"
+                    }
+                        ]
+            },
+            {
+                "lineNumber":"2" ,
+                "productName":"bear-2" ,
+                "marks":[
+                    {
+                        "uniqueBrandCode":"unique-brand-test-code-3"
+                    },
+                    {
+                        "uniqueBrandCode":"unique-brand-test-code-4"
+                    }
+                ]
+
+            }
+            
+        ]
+}
+
+
+// delete document by Id. URL localhost:8080/document-upd/delete/1
+// delete mark by Id. URL localhost:8080/marks/delete/4
